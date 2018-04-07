@@ -14,6 +14,7 @@ $(document).ready(function() {
       };
       console.log(crystals);
       targetNumber = Math.floor((Math.random() * 120) + 19);
+      $("#targetNumber").text(targetNumber);
       console.log(targetNumber);
       $("#totalScore").text(totalScore);
     }
